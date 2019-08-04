@@ -101,7 +101,7 @@ class Board
 
     left_diagonal = String.new
     4.times do |i|
-      break if y+i > 5
+      break if y+i > 5 or x-i < 0
       left_diagonal += @board[y+i][x-i].to_s
     end
     wins << left_diagonal
