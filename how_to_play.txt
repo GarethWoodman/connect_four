@@ -1,0 +1,16 @@
+1. Start a new Game
+connect_four = ConnectFour.new
+
+2. Enter player info
+connect_four.enter_palyer_info
+Enter Player Name
+Enter colour "r" OR "y"
+
+3. Start a round and enter column number
+connect_four.start_round
+
+4. Show current board
+connect_four.board.show
+
+5. Check board for connect four!
+connect_four.board.check_board
